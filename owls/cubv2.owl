@@ -1,0 +1,1297 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<owl:Ontology rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/"/>
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// objectProperties
+//
+///////////////////////////////////////////////////////////////////////////////////////
+     -->
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#responsible_for_execution"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#input_data"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#StartEvent"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#followed_by"/>
+
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// dataProperties
+//
+///////////////////////////////////////////////////////////////////////////////////////
+     -->
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// restriction
+//
+///////////////////////////////////////////////////////////////////////////////////////
+     -->
+ <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#IT_system">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#IT_system">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Start_event">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#StartEvent"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#StartEvent"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#StartEvent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#StartEvent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// classNodes
+//
+///////////////////////////////////////////////////////////////////////////////////////
+     -->
+<owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#IT_system"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Applicant">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#input_data"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ApplicationSheet">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ResearchBoard">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#WorkflowSystem">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#IT_system"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CorvinusUniversityofBudapest"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Administrator">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#input_data"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#input_data"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#TravelForm">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CostCalculation">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Documents"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#StartEvent">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Start_event"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#Registration">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#followed_by"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#followed_by"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#DataValidation">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#followed_by"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#followed_by"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#Notification"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#followed_by"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#FillingouttheApplicationSheet"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckPermission">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#followed_by"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#ChoiceApplicationsType"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/erasmus/#CheckDataandLinkedDocuments">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#followed_by"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/erasmus/#EvaluationandVoting"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class>
+</rdf:RDF>
+

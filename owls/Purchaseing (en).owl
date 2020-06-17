@@ -1,0 +1,906 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<owl:Ontology rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/"/>
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// objectProperties
+//
+///////////////////////////////////////////////////////////////////////////////////////
+     -->
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Payment"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable"/>
+<owl:ObjectProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>
+
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// dataProperties
+//
+///////////////////////////////////////////////////////////////////////////////////////
+     -->
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+<owl:DatatypeProperty rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// restriction
+//
+///////////////////////////////////////////////////////////////////////////////////////
+     -->
+ <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Payment"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Payment"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Payment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Payment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Payment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Start_Event">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#isForCompensation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class> <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Roles">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable"/>
+<owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+<owl:onClass rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#class"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#info"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>    <owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#sourcelang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// classNodes
+//
+///////////////////////////////////////////////////////////////////////////////////////
+     -->
+<owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Payment">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Payment">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Manager">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Warehouse_Operator">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing_Assistant">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Purchasing">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Start_Event"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Purchesing"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#responsible_for_execution"/>     <owl:someValuesFrom rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Accounts_Payable">
+<rdfs:subClassOf rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Roles"/>
+<rdfs:subClassOf>
+</rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>     <owl:hasValue rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Invoicing">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>     <owl:hasValue rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Payment"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>     <owl:hasValue rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Check_Inventory">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>     <owl:hasValue rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>     <owl:hasValue rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Incoming_Goods"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_order">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>     <owl:hasValue rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Supplier_Selection"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>     <owl:hasValue rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_order"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class><owl:Class rdf:about="http://www.uni-corvinus.hu/ontologies/purchase/#Create_purchase_requirement">
+<rdfs:subClassOf>
+<owl:Restriction>     <owl:onProperty rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#followed_by"/>     <owl:hasValue rdf:resource="http://www.uni-corvinus.hu/ontologies/purchase/#Approve_purchase_requirement"/>
+</owl:Restriction></rdfs:subClassOf></owl:Class>
+</rdf:RDF>
+
