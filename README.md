@@ -1,2 +1,2 @@
 # BPM2OWL
-A Java converter from BPNM to OWL
+A Java application that converters a BPNM file to OWL format.
